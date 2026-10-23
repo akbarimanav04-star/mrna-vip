@@ -1,0 +1,15 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "Risk model output: Low risk of an adverse reaction (probability 0.30).",
+    "Candidate dose 124.6 mcg = 0.1246 mg; patient age 62; 1 pre-existing condition(s); prior reaction history: None.",
+    "Guideline rule triggered - Candidate dose is above 100 micrograms: secondary clinician review is required.",
+    "Decision: NOT eligible for standard administration pending secondary clinician review; no dose is recommended until then."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration.",
+    "Patients should be monitored for at least 15 minutes following administration"
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

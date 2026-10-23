@@ -1,0 +1,17 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "Risk model output: High risk of an adverse reaction (probability 0.74).",
+    "Candidate dose 55.8 mcg = 0.0558 mg; patient age 76; 3 pre-existing condition(s); prior reaction history: None.",
+    "Guideline rule triggered - Age 65+ with two or more pre-existing conditions: secondary clinician review is required.",
+    "Guideline rule triggered - Three or more pre-existing conditions: secondary clinician review is required.",
+    "Decision: NOT eligible for standard administration pending secondary clinician review; no dose is recommended until then."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "patients in this age band with two or more relevant pre-existing conditions should be flagged for secondary clinician review regardless of dose",
+    "Three or more relevant pre-existing conditions at time of screening.",
+    "Patients should be monitored for at least 15 minutes following administration"
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

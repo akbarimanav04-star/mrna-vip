@@ -1,0 +1,7 @@
+{
+  "rag_retrieval_s": 0.011480198000026576,
+  "report_generation_s": 0.008699166200017316,
+  "provider": "offline-rule-based (no API key)",
+  "retrieval_backend": "tfidf",
+  "n_reports": 5
+}

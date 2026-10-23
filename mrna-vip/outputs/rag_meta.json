@@ -1,0 +1,13 @@
+{
+  "backend": "tfidf",
+  "embedding_model": "tfidf (offline fallback)",
+  "n_chunks": 4,
+  "chunk_tokens": [
+    349,
+    326,
+    386,
+    337
+  ],
+  "chunk_size": 400,
+  "overlap": 50
+}

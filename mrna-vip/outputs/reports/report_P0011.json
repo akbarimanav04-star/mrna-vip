@@ -1,0 +1,13 @@
+{
+  "Eligible_For_Vaccine": true,
+  "Recommended_Dose_mg": 0.0347,
+  "Reasoning_Steps": [
+    "Risk model output: Low risk of an adverse reaction (probability 0.15).",
+    "Candidate dose 34.7 mcg = 0.0347 mg; patient age 53; 1 pre-existing condition(s); prior reaction history: None.",
+    "No guideline review trigger and a LOW predicted risk: eligible under standard administration, with the standard post-administration monitoring."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Patients should be monitored for at least 15 minutes following administration"
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

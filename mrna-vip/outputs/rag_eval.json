@@ -1,0 +1,224 @@
+{
+  "spec (400 tok / 50 overlap)": {
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "mean_context_tokens": 1058.75,
+    "mean_latency_s": 0.0022501767500102687,
+    "rows": [
+      {
+        "question": "What are the storage requirements below -20C?",
+        "gold_phrase": "ultra-low temperature",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00497,
+        "top_chunk_preview": "Section 1: Storage and Handling Requirements  1.1 Ultra-Low Temperature Storage Unopened m"
+      },
+      {
+        "question": "How long is a thawed vial stable in the refrigerator?",
+        "gold_phrase": "stable for up to 30 days",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00223,
+        "top_chunk_preview": "Section 1: Storage and Handling Requirements  1.1 Ultra-Low Temperature Storage Unopened m"
+      },
+      {
+        "question": "Which doses need secondary clinician review?",
+        "gold_phrase": "Doses above 100 micrograms",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00188,
+        "top_chunk_preview": "1.4 Visual Inspection Prior to Use Prior to administration, vials must be visually inspect"
+      },
+      {
+        "question": "How should patients aged 65 or older with two conditions be handled?",
+        "gold_phrase": "Ages 65 and older",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00194,
+        "top_chunk_preview": "- Ages 5 to 11 years: intermediate pediatric dose tier, generally half the standard adult "
+      },
+      {
+        "question": "What are the absolute contraindications to the vaccine?",
+        "gold_phrase": "anaphylaxis",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00171,
+        "top_chunk_preview": "- Ages 5 to 11 years: intermediate pediatric dose tier, generally half the standard adult "
+      },
+      {
+        "question": "When must a moderate or severe adverse event be documented?",
+        "gold_phrase": "within 24 hours",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00175,
+        "top_chunk_preview": "- Prior history of a moderate reaction to an mRNA-based product, even if the reaction has "
+      },
+      {
+        "question": "How long should a patient be monitored after administration?",
+        "gold_phrase": "at least 15 minutes",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00171,
+        "top_chunk_preview": "- Prior history of a moderate reaction to an mRNA-based product, even if the reaction has "
+      },
+      {
+        "question": "What should happen if the inflammatory biomarker is elevated?",
+        "gold_phrase": "biomarker returns to a normal range",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00181,
+        "top_chunk_preview": "- Ages 5 to 11 years: intermediate pediatric dose tier, generally half the standard adult "
+      }
+    ],
+    "n_chunks": 4,
+    "backend": "tfidf"
+  },
+  "small (120 tok / 20 overlap)": {
+    "hit_at_1": 0.875,
+    "hit_at_3": 1.0,
+    "mean_context_tokens": 270.25,
+    "mean_latency_s": 0.0024680881249992126,
+    "rows": [
+      {
+        "question": "What are the storage requirements below -20C?",
+        "gold_phrase": "ultra-low temperature",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00672,
+        "top_chunk_preview": "Section 1: Storage and Handling Requirements  1.1 Ultra-Low Temperature Storage"
+      },
+      {
+        "question": "How long is a thawed vial stable in the refrigerator?",
+        "gold_phrase": "stable for up to 30 days",
+        "hit_at_1": false,
+        "hit_at_3": true,
+        "latency_s": 0.00237,
+        "top_chunk_preview": ". Once a vial is punctured, its contents must be used within the manufacturer-specified in"
+      },
+      {
+        "question": "Which doses need secondary clinician review?",
+        "gold_phrase": "Doses above 100 micrograms",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00177,
+        "top_chunk_preview": ". Doses above 100 micrograms are considered high-reactogenicity doses and require secondar"
+      },
+      {
+        "question": "How should patients aged 65 or older with two conditions be handled?",
+        "gold_phrase": "Ages 65 and older",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.0017,
+        "top_chunk_preview": "- Ages 12 to 64 years: standard adult dosing range as listed in Section 2.1. - Ages 65 and"
+      },
+      {
+        "question": "What are the absolute contraindications to the vaccine?",
+        "gold_phrase": "anaphylaxis",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.0017,
+        "top_chunk_preview": "Section 3: Contraindications and Warnings  3.1 Absolute Contraindications - Known severe a"
+      },
+      {
+        "question": "When must a moderate or severe adverse event be documented?",
+        "gold_phrase": "within 24 hours",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00171,
+        "top_chunk_preview": "Section 4: Adverse Event Documentation  4.1 Reporting Thresholds Any adverse event classif"
+      },
+      {
+        "question": "How long should a patient be monitored after administration?",
+        "gold_phrase": "at least 15 minutes",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00198,
+        "top_chunk_preview": "3.3 Standard Warnings Patients should be monitored for at least 15 minutes following admin"
+      },
+      {
+        "question": "What should happen if the inflammatory biomarker is elevated?",
+        "gold_phrase": "biomarker returns to a normal range",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.0018,
+        "top_chunk_preview": "2.3 Dose Adjustment for Elevated Biomarker Levels Patients presenting with an inflammatory"
+      }
+    ],
+    "n_chunks": 16,
+    "backend": "tfidf"
+  },
+  "tiny (60 tok / 10 overlap)": {
+    "hit_at_1": 0.625,
+    "hit_at_3": 0.875,
+    "mean_context_tokens": 102.75,
+    "mean_latency_s": 0.00257285375001004,
+    "rows": [
+      {
+        "question": "What are the storage requirements below -20C?",
+        "gold_phrase": "ultra-low temperature",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00559,
+        "top_chunk_preview": "Section 1: Storage and Handling Requirements  1.1 Ultra-Low Temperature Storage"
+      },
+      {
+        "question": "How long is a thawed vial stable in the refrigerator?",
+        "gold_phrase": "stable for up to 30 days",
+        "hit_at_1": false,
+        "hit_at_3": true,
+        "latency_s": 0.00244,
+        "top_chunk_preview": "Refrigerated storage (2C to 8C) is acceptable for short-term use immediately prior to admi"
+      },
+      {
+        "question": "Which doses need secondary clinician review?",
+        "gold_phrase": "Doses above 100 micrograms",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00231,
+        "top_chunk_preview": ". Doses above 100 micrograms are considered high-reactogenicity doses and require secondar"
+      },
+      {
+        "question": "How should patients aged 65 or older with two conditions be handled?",
+        "gold_phrase": "Ages 65 and older",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00211,
+        "top_chunk_preview": "- Ages 65 and older: standard adult dosing range applies; however, patients in this age ba"
+      },
+      {
+        "question": "What are the absolute contraindications to the vaccine?",
+        "gold_phrase": "anaphylaxis",
+        "hit_at_1": false,
+        "hit_at_3": true,
+        "latency_s": 0.00202,
+        "top_chunk_preview": "Section 3: Contraindications and Warnings  3.1 Absolute Contraindications"
+      },
+      {
+        "question": "When must a moderate or severe adverse event be documented?",
+        "gold_phrase": "within 24 hours",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00227,
+        "top_chunk_preview": "Any adverse event classified as moderate or severe must be documented within 24 hours of o"
+      },
+      {
+        "question": "How long should a patient be monitored after administration?",
+        "gold_phrase": "at least 15 minutes",
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "latency_s": 0.00197,
+        "top_chunk_preview": "Patients should be monitored for at least 15 minutes following administration, or 30 minut"
+      },
+      {
+        "question": "What should happen if the inflammatory biomarker is elevated?",
+        "gold_phrase": "biomarker returns to a normal range",
+        "hit_at_1": false,
+        "hit_at_3": false,
+        "latency_s": 0.00188,
+        "top_chunk_preview": "Patients presenting with an inflammatory biomarker level meaningfully above the normal ref"
+      }
+    ],
+    "n_chunks": 38,
+    "backend": "tfidf"
+  }
+}
